@@ -1,0 +1,23 @@
+---
+title: "Milestone 3"
+author: "Emily Kim"
+date: "10/4/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# My Data
+I plan to use data oulled from Harvard's Dataverse library, related to the electoral system in Japan; I'm primarily interested in looking into the data to see whether personalistic relationships with and perceptions of candidates have a stronger impact tied to LDP party dominance, relative to other minor parties in Japan's current political landscape. 
+
+One study I've identified as potentially useful is a dataset containing voter preferences for politicians' personal attributes in Japan's mixed-member system: 
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KCIADO
+
+There are 3 excel sheets hosting raw data within this study, and I plan to read in one particular sheet, which contains data from both lower house and upper house elections, albeit in Japanese. 
+
+## What I Plan to Do With the Data
+The big hurdle at the moment is organizing data in a foreign language, and seeing how R might respond to such input. 
+
+But primarily, I most probably will be filtering and organizing the data to account for the demographics of each voter (age, gender, region: urban/rural), as well as the particular characteristics they reportedly look for in a candidate. 
